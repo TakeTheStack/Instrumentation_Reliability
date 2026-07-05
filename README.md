@@ -33,8 +33,9 @@ int main() {\
   scanf("%d %d", &series_mode, &parallel_mode);
 
   if(series_mode == 1 && parallel_mode == 0) {Series(r);}\
-  else if(series_mode == 0 && parallel_mode == 1) {Parallel(r);}
-}\ Series(r); Parallel(r);\
+  else if(series_mode == 0 && parallel_mode == 1) {Parallel(r);}\
+}\
+Series(r); Parallel(r);\
 //this is the two functions necessary for both systems configurations and computations of reliability
 
 Pour plus d'information, voici le program complet fonctionnel: https://github.com/TakeTheStack/Instrumentation_Reliability/edit/main/instrumentation_reliability.c
