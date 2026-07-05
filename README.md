@@ -8,14 +8,14 @@ information->|composant 1|->fiabilité 1->|composant 2|->fiabilité 2->|composan
 parallèle:\
 Information->|composant 1|->fiabilité\
 Information->|composant 2|->fiabilité\
-Information->|composant 3|->fiabilité\
+Information->|composant 3|->fiabilité
 
 # Formules Mathèmatiques
 Série = r1 * r2 *r3\
 Série avec la même fiabilité = (r)³->c'est le nombre de composant\
 
 Parallèle = 1 - ((1 - r1) * (1 - r2) * (1 - r3))\
-Parallèle avec la même fiabilité = 3r - 3r² + r³\
+Parallèle avec la même fiabilité = 3r - 3r² + r³
 
 # Pseudo-Program implémenter en langage c
 include <stdio.h>, <stdlib.h>, <math.h>\
@@ -34,7 +34,7 @@ int main() {\
 
   if(series_mode == 1 && parallel_mode == 0) {Series(r);}\
   else if(series_mode == 0 && parallel_mode == 1) {Parallel(r);}\
-} Series(r); Parallel(r);\\
-//this is the two functions necessary for both systems configurations and computations of reliability\\
+} Series(r); Parallel(r);
+//this is the two functions necessary for both systems configurations and computations of reliability
 
 Pour plus d'information, voici le program complet fonctionnel: https://github.com/TakeTheStack/Instrumentation_Reliability/edit/main/instrumentation_reliability.c\
